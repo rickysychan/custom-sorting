@@ -17,9 +17,10 @@ var result =  students.sort(function(a,b){
   if (nameA > nameB) {
     return 1;
   }
-  if (nameA = nameB){
+  else{
     if(ageA < ageB){
       return -1
+    } else {return 1
     }
   }
 });
